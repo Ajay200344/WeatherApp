@@ -23,7 +23,7 @@ function Home({location}) {
   }, []);
 
   if (loading) {
-    return <h1 className="text-center font-bold text-2xl">loading data...</h1>;
+    return <h1 className=" mb-80 text-center font-bold text-2xl">loading data...</h1>;
   }
 
   return (
