@@ -32,8 +32,8 @@ function Search(){
     return(
         <>
         <div className="mt-25 flex justify-center items-center gap-5  pl-2">
-             <input type="text" className="border font-bold text-xl rounded-lg" id="input" placeholder="Search by city name..." onChange={(e)=> setcity(e.target.value)} />
-             <button className="border cursor-pointer font-bold text-xl rounded-lg" onClick={myfun}>Search</button>
+             <input type="text" className="placeholder-black border font-bold text-md rounded-lg lg:text-3xl  " id="input" placeholder="Search by city name..." onChange={(e)=> setcity(e.target.value)} />
+             <button className="border cursor-pointer font-bold  text-md rounded-sm lg:text-3xl" onClick={myfun}>Search</button>
             
         </div>
                {data && (

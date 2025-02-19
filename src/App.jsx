@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-    <div className=" flex flex-col justify-between  bg-cover bg-center bg-no-repeat bg-[url('/src/assets/bg.webp')] lg:bg-[url('/src/assets/lgbackground.jpg')]"> 
+    <div className=" flex flex-col justify-between min-h-screen bg-cover bg-center bg-no-repeat bg-[url('/src/assets/bg.webp')] lg:bg-[url('/src/assets/lgbackground.jpg')]"> 
     <Nav/>
     <Search/>
     <Location lati={setlat} long={setlon}/> 
